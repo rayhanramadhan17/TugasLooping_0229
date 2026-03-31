@@ -24,3 +24,7 @@ void inputAngka() {
 // Function bool untuk mengecek bilangan prima
 bool cekPrima(int n) {
     if (n < 2) {
+        return false;
+    }
+
+ 
