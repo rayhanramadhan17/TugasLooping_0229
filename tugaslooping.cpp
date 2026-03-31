@@ -92,3 +92,10 @@ int main() {
                 cout << "Program selesai. Terima kasih!" << endl;
                 return 0;
 
+            default:
+                cout << "Pilihan tidak valid! Silakan pilih 0, 1, atau 2." << endl;
+        }
+    }
+
+    return 0;
+}
