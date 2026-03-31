@@ -77,3 +77,9 @@ int main() {
     while (true) {
         menu();
 
+        switch (pilihan) {
+            case 1:
+                inputAngka();
+                tampilHasilPrima();
+                break;
+
