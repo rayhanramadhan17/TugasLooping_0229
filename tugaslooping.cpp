@@ -43,4 +43,6 @@ bool cekFibonacci(int n) {
         return false;
     }
 
- 
+    int a = 0, b = 1, c = 0;
+
+   
