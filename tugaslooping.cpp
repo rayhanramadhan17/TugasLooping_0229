@@ -15,3 +15,9 @@ int menu() {
     return pilihan;
 }
 
+// Prosedur untuk input angka
+void inputAngka() {
+    cout << "Masukkan sebuah bilangan: ";
+    cin >> angka;
+}
+
