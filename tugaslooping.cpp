@@ -54,3 +54,12 @@ bool cekFibonacci(int n) {
     return (n == 0 || n == 1 || c == n);
 }
 
+// Prosedur untuk menampilkan hasil prima
+void tampilHasilPrima() {
+    if (cekPrima(angka)) {
+        cout << angka << " adalah bilangan prima." << endl;
+    } else {
+        cout << angka << " bukan bilangan prima." << endl;
+    }
+}
+
