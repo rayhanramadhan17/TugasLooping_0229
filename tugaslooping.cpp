@@ -72,3 +72,8 @@ void tampilHasilFibonacci() {
     }
 }
 
+// Main program
+int main() {
+    while (true) {
+        menu();
+
