@@ -63,3 +63,12 @@ void tampilHasilPrima() {
     }
 }
 
+// Prosedur untuk menampilkan hasil fibonacci
+void tampilHasilFibonacci() {
+    if (cekFibonacci(angka)) {
+        cout << angka << " termasuk bilangan Fibonacci." << endl;
+    } else {
+        cout << angka << " bukan bilangan Fibonacci." << endl;
+    }
+}
+
