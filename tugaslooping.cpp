@@ -51,4 +51,6 @@ bool cekFibonacci(int n) {
         b = c;
     }
 
- 
+    return (n == 0 || n == 1 || c == n);
+}
+
