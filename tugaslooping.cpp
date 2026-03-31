@@ -21,3 +21,6 @@ void inputAngka() {
     cin >> angka;
 }
 
+// Function bool untuk mengecek bilangan prima
+bool cekPrima(int n) {
+    if (n < 2) {
